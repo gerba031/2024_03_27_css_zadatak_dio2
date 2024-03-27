@@ -115,7 +115,7 @@ input[name="tab"] {
 /* prikaži tab kada je input označen sa checked */
 input[name="tab"]:checked+.tab-content {
     display: block;
-    animation: slide 0.5s forwards;
+    animation: slide 0.35s forwards;
 }
 
 .tab-content::after {

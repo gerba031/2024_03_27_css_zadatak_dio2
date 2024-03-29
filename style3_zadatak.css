@@ -102,7 +102,7 @@ input[name="tab"] {
 .tab-content {
     position: relative;
     background: #eee;
-    width: calc(100%-120px);
+    width: calc(100% - 120px);
     /* Kalkuliramo širinu u odnosu na širinu koju smo definirali za širinu menija */
     min-height: 100vh;
     padding: 15px;

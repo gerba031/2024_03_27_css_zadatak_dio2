@@ -98,6 +98,6 @@ body {
 
 /* fancy 3d hover effect */
 .container .card .face.face2 .content a:hover {
-    background: #ffe600;
+    background: grey;
     color: #fff;
 }

@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style3_zadatak.css">
     <link rel="stylesheet" href="./style_copy.css">
+    <link rel="stylesheet" href="./sidebar-style.css">
 </head>
 
 <body>
@@ -16,103 +17,114 @@
         </div>
     </header>
 
-    <section class="tabs-container">
-        <label for="tab1">First tab</label>
-        <label for="tab2">Second tab</label>
-        <label for="tab3">Third tab</label>
-        <label for="tab4">Fourth tab</label>
-        <label for="tab5">Fifth tab</label>
-        <label for="Fancy_cards">Fancy cards</label>
-    </section>
+    <div class="menu-wrapper">
+        <!--hamburger menu-->
+        <input data-function="swipe" id="swipe" type="checkbox">
+        <label data-function="swipe" for="swipe">&#xf0c9;</label>
 
-
-    <input name="tab" id="tab1" type="radio" checked>
-    <section class="tab-content">
-        <h2>Tab Heading 1</h2>
-        <p>Your paragraph goes here</p>
-        <!-- any other content-->
-    </section>
-    <input name="tab" id="tab2" type="radio">
-    <section class="tab-content">
-        <h2>Tab Heading 2 </h2>
-        <p>Your paragraph goes here</p>
-        <!-- any other content-->
-    </section>
-    <input name="tab" id="tab3" type="radio">
-    <section class="tab-content">
-        <h2>Tab Heading 3</h2>
-        <p>Your paragraph goes here</p>
-        <!-- any other content-->
-    </section>
-    <input name="tab" id="tab4" type="radio">
-    <section class="tab-content">
-        <h2>Tab Heading 4</h2>
-        <p>Your paragraph goes here</p>
-        <!-- any other content-->
-    </section>
-    <input name="tab" id="tab5" type="radio">
-    <section class="tab-content">
-        <h2>Tab Heading 5</h2>
-        <p>Your paragraph goes here</p>
-        <!-- any other content-->
-    </section>
-    <input name="tab" id="Fancy_cards" type="radio">
-    <section class="tab-content">
-        <h2>Tab Heading N</h2>
-        <div class="container">
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <img width="100px" src="../2024_03_29_css_zadatak/img/sketch.png" alt="design">
-                        <h3>Design</h3>
-                    </div>
-                </div>
-                <div class="face face2">
-                    <div class="content">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Repudiandae nesciunt magnam maxime quod veniam possimus alias
-                        </p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <img width="100px" src="../2024_03_29_css_zadatak/img/web-development.png" alt="design">
-                        <h3>Code</h3>
-                    </div>
-                </div>
-                <div class="face face2">
-                    <div class="content">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Repudiandae nesciunt magnam maxime quod veniam possimus alias
-                        </p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <img width="100px" src="../2024_03_29_css_zadatak/img/startup.png" alt="design">
-                        <h3>Launch</h3>
-                    </div>
-                </div>
-                <div class="face face2">
-                    <div class="content">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Repudiandae nesciunt magnam maxime quod veniam possimus alias
-                        </p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
+        <!--nas vertikalni menu-->
+        <div class="sidebar">
+            <section class="tabs-container">
+                <label for="tab1">First tab</label>
+                <label for="tab2">Second tab</label>
+                <label for="tab3">Third tab</label>
+                <label for="tab4">Fourth tab</label>
+                <label for="tab5">Fifth tab</label>
+                <label for="Fancy_cards">Fancy cards</label>
+            </section>
         </div>
-        <!-- any other content-->
-    </section>
+
+        <!--content area-->
+        <div class="content1">
+            <input name="tab" id="tab1" type="radio" checked>
+            <section class="tab-content">
+                <h2>Tab Heading 1</h2>
+                <p>Your paragraph goes here</p>
+                <!-- any other content-->
+            </section>
+            <input name="tab" id="tab2" type="radio">
+            <section class="tab-content">
+                <h2>Tab Heading 2 </h2>
+                <p>Your paragraph goes here</p>
+                <!-- any other content-->
+            </section>
+            <input name="tab" id="tab3" type="radio">
+            <section class="tab-content">
+                <h2>Tab Heading 3</h2>
+                <p>Your paragraph goes here</p>
+                <!-- any other content-->
+            </section>
+            <input name="tab" id="tab4" type="radio">
+            <section class="tab-content">
+                <h2>Tab Heading 4</h2>
+                <p>Your paragraph goes here</p>
+                <!-- any other content-->
+            </section>
+            <input name="tab" id="tab5" type="radio">
+            <section class="tab-content">
+                <h2>Tab Heading 5</h2>
+                <p>Your paragraph goes here</p>
+                <!-- any other content-->
+            </section>
+            <input name="tab" id="Fancy_cards" type="radio">
+            <section class="tab-content">
+                <h2>Tab Heading N</h2>
+                <div class="container">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img width="100px" src="../2024_03_29_css_zadatak/img/sketch.png" alt="design">
+                                <h3>Design</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repudiandae nesciunt magnam maxime quod veniam possimus alias
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img width="100px" src="../2024_03_29_css_zadatak/img/web-development.png" alt="design">
+                                <h3>Code</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repudiandae nesciunt magnam maxime quod veniam possimus alias
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img width="100px" src="../2024_03_29_css_zadatak/img/startup.png" alt="design">
+                                <h3>Launch</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repudiandae nesciunt magnam maxime quod veniam possimus alias
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- any other content-->
+            </section>
+        </div>
+    </div>
 
 
 
